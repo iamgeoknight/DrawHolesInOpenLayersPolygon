@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css" type="text/css">    
+    <link rel="stylesheet" href="style.css" type="text/css">    
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script>
+
+    <link href="https://viglino.github.io/font-gis/css/font-gis.css" rel="stylesheet" />
+    
+
+    <title>Draw Holes in OpenLayers Polygon</title>
+  </head>
+  <body>    
+    <div class = "container">
+        <div class = "toolbar">
+            <span id = "btn1" title = "Draw Polygon" class="fg-polygon-o fg-2x" style="color:rgb(163, 127, 127);  background-color: white;" geomtype = "Polygon"></span>
+            
+            <span id = "btn2" title = "Draw Hole in Polygon" class="fg-polygon-hole fg-2x" style="color:rgb(163, 127, 127); background-color: white;" geomtype = "PolygonHole"></span>
+
+            <span id = "btn3" title = "Clear Graphics" class="fg-rectangle fg-2x" style="color:rgb(163, 127, 127); background-color: white;" geomtype = "clear"></span>           
+                      
+        </div>
+        <div id="map" class="map">      
+          <div id = "popup"></div>  
+        </div>        
+    </div>    
+    <script src="script.js"></script>
+  </body>
+</html>
