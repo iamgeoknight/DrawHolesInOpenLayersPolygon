@@ -1,4 +1,4 @@
-# OpenLayersDynamicMeasurement
+# DrawHolesInOpenLayersPolygon
 Draw Holes in OpenLayers Polygon
 
 ![Draw Holes in OpenLayers Polygon](DrawHolesInOpenLayersPolygon.gif)
